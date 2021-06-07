@@ -130,9 +130,9 @@ span {
   width: 100vw;
   background-color: #f4f4f4;
   display: block;
+  box-sizing: border-box;
   padding: 50px;
   color: #f4f4f4;
-  margin: 0 -20px 0 auto;
 }
 
 .about-head {
@@ -152,7 +152,7 @@ span {
   color: #808080;
   font-size: 1.2vw;
   margin-top: 20px;
-  margin-left: -5vw;
+
   font-weight: 500;
 }
 .about-image {
@@ -248,8 +248,8 @@ span {
   width: 100vw;
   display: block;
   background-color: #f4f4f4;
+  box-sizing: border-box;
   padding: 50px;
-  margin: 0 -20px 0 auto;
 }
 
 .blog-head {
